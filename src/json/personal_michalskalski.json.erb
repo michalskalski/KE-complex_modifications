@@ -1,0 +1,15 @@
+{
+  "title": "Personal rules (@michalskalski)",
+  "rules": [
+    {
+      "description": "Use fn + f (hhkb) to lock screen on mac os (shift + ctrl + power)",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": <%= from("f20", [], ["any"]) %>,
+          "to": <%= to([["power", ["left_shift", "left_control"]]]) %>
+        }
+      ]
+    }
+  ]
+}
