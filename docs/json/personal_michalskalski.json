@@ -2,7 +2,7 @@
   "title": "Personal rules (@michalskalski)",
   "rules": [
     {
-      "description": "Use fn + f (hhkb) to lock screen on mac os (shift + ctrl + power)",
+      "description": "Use fn + f (hhkb) to lock screen on mac os (ctrl + command + q)",
       "manipulators": [
         {
           "type": "basic",
@@ -16,10 +16,10 @@
           },
           "to": [
             {
-              "key_code": "power",
+              "key_code": "q",
               "modifiers": [
-                "left_shift",
-                "left_control"
+                "left_control",
+                "left_command"
               ]
             }
           ]
